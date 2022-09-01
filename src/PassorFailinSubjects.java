@@ -13,10 +13,10 @@ public class PassorFailinSubjects {
 		Maths=90;
 		int Total = English+Science+Maths;
 		Object  Average = Total/3;
-		int Percentage = (Total*300)/100;
+		int Percentage = (Total*100)/300;
 		System.out.println("Total  marks =" +Total);
 		System.out.println("Average  marks =" +Average);
-		System.out.println("Percentage  marks =" +Percentage);
+		System.out.println("Percentage  marks =" +Percentage + "%");
 		
 		
 		
